@@ -7,6 +7,7 @@ int data;
 printf("Enter the data to search: ");
 scanf("%d",&data);
 //Binary Search, Time complexity: O(log n)
+	       //Space Complexity: O(1)
 int flag = 1;
 int lb = 0, ub = 5;
 while(lb<=ub){
